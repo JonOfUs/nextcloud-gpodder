@@ -53,7 +53,7 @@ jobs:
 
       - name: Set up PHPUnit
         working-directory: apps/${{ env.APP_NAME }}
-        run: composer i
+        run: composer i --prefer-dist
 
       - name: Set up Nextcloud
         env:
