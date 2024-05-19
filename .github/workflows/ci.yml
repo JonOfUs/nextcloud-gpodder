@@ -47,7 +47,6 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-versions }}
-          tools: phpunit:11
           extensions: mbstring, iconv, fileinfo, intl, sqlite, pdo_sqlite, gd, zip
           coverage: none
 
@@ -114,7 +113,6 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-versions }}
-          tools: phpunit:11
           extensions: mbstring, iconv, fileinfo, intl, mysql, pdo_mysql, gd, zip
           coverage: none
 
