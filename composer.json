@@ -8,11 +8,11 @@
 			"email": "thrillfall@disroot.org"
 		},
 		{
-			"name": "JohnUfUs",
+			"name": "JonOfUs",
 			"email": "jonofus@flueren.eu"
 		}
 	],
 	"require-dev": {
-		"phpunit/phpunit": "^11"
+		"phpunit/phpunit": "^10"
 	}
 }
